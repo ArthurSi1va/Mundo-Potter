@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/6Fn2-gEYCDT6CIwgqswA1dXhWJs/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2017/12/11/834/n/38761221/tmp_5BRoTP_67855337aa6e4689_MSDHAPO_EC024.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    background: rgba(red, red, red, 0.1);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    color: darkgray;
+    font-size: 50px;
+
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+    box-sizing: border-box;
+  }
+  
+  img:hover{
+    border:grey 1px solid;
+  }
